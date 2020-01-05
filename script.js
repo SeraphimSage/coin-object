@@ -29,12 +29,12 @@ let coin = {
         let output = 0;
         if (this.state == 0) {
             let image = document.createElement("img");
-            image.setAttribute("src", "src/heads.png")
+            image.setAttribute("src", "images/heads.png")
             document.getElementById("headTail").appendChild(image);
         }
         if (this.state == 1) {
             let image = document.createElement("img");
-            image.setAttribute("src", "src/tails.png")
+            image.setAttribute("src", "images/tails.png")
             document.getElementById("headTail").appendChild(image);
         }
     }
